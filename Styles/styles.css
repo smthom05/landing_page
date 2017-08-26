@@ -1,1 +1,78 @@
-styles.css
+body {
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.header {
+	height: 500px;
+	background-color: blue;
+	padding-top: 30px;
+	background-image: url("../images/header_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.header h1 {
+	color: white;	
+}
+
+.centered {
+	text-align: center;	
+	top-margin: 100px;
+}
+
+.top-margin {
+	margin-top: 80px;
+}
+.get-it-now-button {
+	padding-left: 60px;
+	padding-right: 60px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: yellow;
+	border-radius: 10px;
+	font-size: 24px;
+	border: none;
+}
+
+.benefits {
+	height: 400px;
+	background: #d3d3d3;
+}
+
+.benefits h2 {
+	padding-top: 75px;
+	margin: 0;
+	color: navy;
+	font-size: 36px;
+}
+
+.benefits p, ul {
+	font-size: 20px;
+}
+
+.Testimonials {
+	height: 300px;
+	background-image: url("../images/testimonial_bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.Testimonials p {
+	margin: 0;
+	color: white;
+	font-size: 24px;
+	padding-top: 50px;
+}
+
+.centered-quote {
+	margin: 0;
+	padding-top: 50px;
+	font-style: italic;
+	text-align: center;
+}
